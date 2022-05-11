@@ -48,7 +48,7 @@ if __name__ == "__main__":
             self.conv3 = nn.Conv2d(32, 64, 3, padding=1)
             self.conv4 = nn.Conv2d(64, 128, 3, padding=1)
             self.conv5 = nn.Conv2d(128, 256, 3, padding=2)
-            self.fc1 = nn.Linear(512, 128)
+            self.fc1 = nn.Linear(256, 128)
             self.fc2 = nn.Linear(128, 120)
             self.fc3 = nn.Linear(120, 84)
             self.fc4 = nn.Linear(84, 59)
